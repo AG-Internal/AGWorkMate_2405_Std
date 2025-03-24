@@ -1,0 +1,75 @@
+{
+	"ProjectName": "SAPAssetManagerExt",
+	"ApplicationName": "SAPAssetManagerExt",
+	"ComponentVersion": "1",
+	"IntegrationPoints": [
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/OverviewNew.page",
+			"Target": "/SAPAssetManager/Pages/OverviewNew.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/SideMenuDrawer.page",
+			"Target": "/SAPAssetManager/Pages/SideMenuDrawer.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/WorkOrderDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderDetails.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/WorkOrderOperationDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/Operations/WorkOrderOperationDetails.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/FunctionalLocationDetails.page",
+			"Target": "/SAPAssetManager/Pages/FunctionalLocation/FunctionalLocationDetails.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/NotificationDetails.page",
+			"Target": "/SAPAssetManager/Pages/Notifications/NotificationDetails.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/WorkOrdersListView.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrdersListView.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/NotificationsListView.page",
+			"Target": "/SAPAssetManager/Pages/Notifications/NotificationsListView.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/WorkOrderOperationsListView.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/Operations/WorkOrderOperationsListView.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/FunctionalLocationListView.page",
+			"Target": "/SAPAssetManager/Pages/FunctionalLocation/FunctionalLocationListView.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/RemindersListView.page",
+			"Target": "/SAPAssetManager/Pages/Reminders/RemindersListView.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/EquipmentDetails.page",
+			"Target": "/SAPAssetManager/Pages/Equipment/EquipmentDetails.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/NotificationCreateUpdate.page",
+			"Target": "/SAPAssetManager/Pages/Notifications/NotificationCreateUpdate.page"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Rules/2405/SyncIcon.js",
+			"Target": "/SAPAssetManager/Rules/Sync/SyncIcon.js"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/Fragments/WorkOrderObjectCell.fragment",
+			"Target": "/SAPAssetManager/Pages/Fragments/WorkOrder/WorkOrderObjectCell.fragment"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/Fragments/WorkOrderDetails/ActionBarItems.fragment",
+			"Target": "/SAPAssetManager/Pages/Fragments/WorkOrder/WorkOrderDetails/ActionBarItems.fragment"
+		},
+		{
+			"Source": "/SAPAssetManagerExt/Pages/2405/Fragments/WorkOrderDetails/ToolBarControls.fragment",
+			"Target": "/SAPAssetManager/Pages/Fragments/WorkOrder/WorkOrderDetails/ToolBarControls.fragment"
+		}
+	]
+}

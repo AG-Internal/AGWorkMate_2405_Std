@@ -1,0 +1,70 @@
+{
+	"ProjectName": "SmartInspections",
+	"ApplicationName": "SmartInspections",
+	"IntegrationPoints": [
+		{
+			"Source": "/SmartInspections/Actions/2405/ApplicationStartupMessage.action",
+			"Target": "/SAPAssetManager/Actions/ApplicationStartupMessage.action"
+		},
+		{
+			"Source": "/SmartInspections/Actions/2405/SyncSuccessMessage.action",
+			"Target": "/SAPAssetManager/Actions/SyncSuccessMessage.action"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/DataSubscriptions.js",
+			"Target": "/SAPAssetManager/Rules/Common/DataSubscriptions.js"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/ClassificationListViewCaption.js",
+			"Target": "/SAPAssetManager/Rules/Classification/ClassificationListViewCaption.js"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/EnableCharEdit.js",
+			"Target": "/SAPAssetManager/Rules/UserAuthorizations/Characteristics/EnableCharEdit.js"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/WorkOrderListViewIconImages.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/ListView/WorkOrderListViewIconImages.js"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/WorkOrderAssignedTo.js",
+			"Target": "/SAPAssetManager/Rules/Supervisor/Assign/WorkOrderAssignedTo.js"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/CharacteristicDisplayValue.js",
+			"Target": "/SAPAssetManager/Rules/Classification/Characteristics/CharacteristicDisplayValue.js"
+		},
+		{
+			"Source": "/SmartInspections/Rules/2405/ContextMenuItems.js",
+			"Target": "/SAPAssetManager/Rules/ContextMenuItems.js"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/WorkOrderDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderDetails.page"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/EquipmentDetails.page",
+			"Target": "/SAPAssetManager/Pages/Equipment/EquipmentDetails.page"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/FunctionalLocationDetails.page",
+			"Target": "/SAPAssetManager/Pages/FunctionalLocation/FunctionalLocationDetails.page"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/SideMenuDrawer.page",
+			"Target": "/SAPAssetManager/Pages/SideMenuDrawer.page"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/ClassificationListView.page",
+			"Target": "/SAPAssetManager/Pages/Classification/ClassificationListView.page"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/WorkOrdersListView.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrdersListView.page"
+		},
+		{
+			"Source": "/SmartInspections/Pages/2405/OverviewNew.page",
+			"Target": "/SAPAssetManager/Pages/OverviewNew.page"
+		}
+	]
+}

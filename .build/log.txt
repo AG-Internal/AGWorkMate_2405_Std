@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/AG_SI2405_WM_AI/SAPAssetManager/.build/SAPAssetManager/.build/uploadBundle.zip

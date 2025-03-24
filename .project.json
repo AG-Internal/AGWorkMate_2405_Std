@@ -1,0 +1,48 @@
+{
+	"validation": {
+		"exclude": {
+			"ui": [
+				"#Control:Comments"
+			],
+			"i18n": [
+				"map_settings_close",
+				"bm_title",
+				"fl_title",
+				"dl_title",
+				"map_nearme_dist_title",
+				"map_nearme_unit_title",
+				"map_nearme_mi",
+				"map_nearme_km",
+				"battery_saving_switch_title",
+				"battery_saving_switch_desctiption"
+			]
+		}
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=SAMSI.2405_WM_AI&ClientId=a6e211c0-7b7d-4672-8678-8a2d72986fa3&ServerUrl=https://ag-sap-ssam-2210-s4q-2022-unr89afq-ssam-samsi-2405-wm-ai.cfapps.eu10-004.hana.ondemand.com&SapCloudPlatformEndpoint=https://ag-sap-ssam-2210-s4q-2022-unr89afq-ssam-samsi-2405-wm-ai.cfapps.eu10-004.hana.ondemand.com&AuthorizationEndpointUrl=https://ag-sap-ssam-2210-s4q-2022-unr89afq-ssam-samsi-2405-wm-ai.cfapps.eu10-004.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://ag-sap-ssam-2210-s4q-2022-unr89afq-ssam-samsi-2405-wm-ai.cfapps.eu10-004.hana.ondemand.com&TokenUrl=https://ag-sap-ssam-2210-s4q-2022-unr89afq-ssam-samsi-2405-wm-ai.cfapps.eu10-004.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"CF": {
+		"Target": "https://api.cf.eu10-004.hana.ondemand.com",
+		"Organization": "edf4c792-5ff5-43ec-b4fd-9ac874478fb1",
+		"Space": "55280115-0edb-41de-bfaf-1e36a861e98a"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/edf4c792-5ff5-43ec-b4fd-9ac874478fb1/space/55280115-0edb-41de-bfaf-1e36a861e98a",
+		"AppId": "SAMSI.2405_WM_AI",
+		"Destination": [
+			"DEST_DIGITAL_SIGNATURE_PPROP",
+			"DEST_SAM2405_ONLINE_PPROP",
+			"DEST_SAM2405_PPROP",
+			"SAP_SI_OData",
+			"openai"
+		]
+	},
+	"Build": {
+		"SourceMap": false,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}
