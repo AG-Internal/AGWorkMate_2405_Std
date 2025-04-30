@@ -8,11 +8,12 @@ import libMobile from '../MobileStatus/MobileStatusLibrary';
 import { WorkOrderDetailsPageName } from './Details/WorkOrderDetailsPageToOpen';
 
 export default function WorkOrderDetailsNav(context) {
+ 
     let actionBinding;
     let previousPageProxy;
     let pageProxy;
     try {
-        if (typeof context.getPageProxy === 'function') {
+        if (typeof context.getPageProxy() === 'function') {
             actionBinding = context.getPageProxy().getActionBinding();
             previousPageProxy = context.getPageProxy().evaluateTargetPathForAPI('#Page:-Previous');
             pageProxy = context.getPageProxy();           
